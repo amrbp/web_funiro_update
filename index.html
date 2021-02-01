@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="above-the-fold">
+      <div class="row">
+        <div
+          class="col-8"
+          
+        ></div>
+        <div
+          class="col-4"
+          
+        ></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="navbarPosition">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand font-weight-bold" href="#">Funiro.</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Rooms
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inspirations</a>
+              </li>
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <img
+                src="assets/img/heart.png"
+                width="24px"
+                height="24px"
+                class="mr-sm-4"
+              />
+              <img
+                src="assets/img/shopping-cart.png"
+                width="24px"
+                height="24px"
+                class="mr-sm-4"
+              />
+              <img
+                src="assets/img/man.jpg"
+                width="40px"
+                height="40px"
+                class="mr-sm-4 rounded-circle"
+              />
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col mb-4">
+            <h1 class="positionText font-weight-bold">
+              High-Quality Furniture Just For You
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="content">
+              Our furniture is made from selected and best quality materials
+              that are suitable for your dream home
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="box">
+              <button
+                type="button"
+                class="btn btn-danger btn-block size-button"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="imgGallery">
+      <div class="positionGallery">
+        <div class="position-button">
+          <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+          <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+          <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+          <div class="Gallery-section">
+            <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">
+              ❮ Prev
+            </button>
+            <button class="w3-button w3-light-grey" onclick="plusDivs(1)">
+              Next ❯
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="positionText">
+        <div class="w3-content" style="max-width: 800px">
+          <img
+            class="mySlides"
+            src="assets/img/sofa/01.jpg"
+            style="width: 100%"
+          />
+          <img
+            class="mySlides"
+            src="assets/img/sofa/02.jpg"
+            style="width: 100%"
+          />
+          <img
+            class="mySlides"
+            src="assets/img/sofa/03.jpg"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+    </div>
+    <section class="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="assets/img/icon/trophy.png"
+                  width="40px"
+                  height="40px"
+                  class="imgCenter"
+                />
+              </div>
+              <div class="col-10 center-text">
+                <h5>High Quality</h5>
+                <p>crafted from top materials</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="assets/img/icon/checked.png"
+                  width="40px"
+                  height="40px"
+                  class="imgCenter"
+                />
+              </div>
+              <div class="col-10 center-text">
+                <h5>Warrany Protection</h5>
+                <p>over 2 year</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="assets/img/icon/free.png"
+                  width="40px"
+                  height="40px"
+                  class="imgCenter"
+                />
+              </div>
+              <div class="col-10 center-text">
+                <h5>Free Shipping</h5>
+                <p>Order over 150 $</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="assets/img/icon/support.png"
+                  width="40px"
+                  height="40px"
+                  class="imgCenter"
+                />
+              </div>
+              <div class="col-10 center-text">
+                <h5>24 / 7 Support</h5>
+                <p>Dedicated support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-products">
+      <div class="container">
+        <h2 class="text-center font-weight-bold">Our Products</h2>
+        <div class="row positionText">
+          <div class="card-deck">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/03.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Syltherine</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small
+                      ><p class="card-text text-muted">
+                        Stylish cafe chair
+                      </p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small
+                      ><p class="card-text font-weight-bold">
+                        Rp 2.500.000
+                      </p></small
+                    >
+                  </div>
+                  <div class="col-lg-6 text-muted">
+                    <small
+                      ><del
+                        ><p><del>Rp 3.500.000</del></p></del
+                      ></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/04.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Leviosa</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small
+                      ><p class="card-text text-muted">
+                        Stylish cafe chair
+                      </p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small
+                      ><p class="card-text font-weight-bold">
+                        Rp 2.500.000
+                      </p></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/05.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Lolito</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small
+                      ><p class="card-text text-muted">
+                        Luxury big sofa
+                      </p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small
+                      ><p class="card-text font-weight-bold">
+                        Rp 7.500.000
+                      </p></small
+                    >
+                  </div>
+                  <div class="col-lg-6 text-muted">
+                    <small
+                      ><p><del>Rp 14.500.000</del></p></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/06.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Respira</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small
+                      ><p class="card-text text-muted">Minimalist fan</p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small>
+                      <p class="card-text font-weight-bold">
+                        Rp 500.000
+                      </p></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row positionText">
+          <div class="card-deck">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/07.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Grifo</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small>
+                      <p class="card-text text-muted">Night lamp</p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small>
+                      <p class="card-text font-weight-bold">
+                        Rp 1.500.000
+                      </p></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/08.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Muggo</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small>
+                      <p class="card-text text-muted">Small mug</p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small>
+                      <p class="card-text font-weight-bold">
+                        Rp 150.000
+                      </p></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/01.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Pingky</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small
+                      ><p class="card-text text-muted">Cute bed set</p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small>
+                      <p class="card-text font-weight-bold">
+                        Rp 7.500.000
+                      </p></small
+                    >
+                  </div>
+                  <div class="col-lg-6 text-muted">
+                    <small
+                      ><del><p>Rp 14.500.000</p></del></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/02.jpg"
+                height="285px"
+              />
+              <div class="card-body" style="background-color: #f4f5f7">
+                <div class="row">
+                  <div class="col-lg-12 mb-2">
+                    <h5 class="card-text font-weight-bold">Potty</h5>
+                  </div>
+                  <div class="col mb-2">
+                    <small
+                      ><p class="card-text text-muted">
+                        Minimalist flower pot
+                      </p></small
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <small
+                      ><p class="card-text font-weight-bold">
+                        Rp 500.000
+                      </p></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttonPosition">
+          <button type="button" class="btn btn-outline-warning">
+            Show More
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="inspiration">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="content">
+              <h1 class="mb-3">50+ Beautiful rooms inspiration</h1>
+              <p class="mb-3">
+                Our designer already made a lot of beautiful prototipe of rooms
+                that inspire you
+              </p>
+              <button type="button" class="btn btn-outline-warning">
+                Explore More
+              </button>
+            </div>
+          </div>
+          <div class="col-7">
+            <div class="row">
+              <div class="col">
+                <div class="slider">
+                  <div class="positionText">
+                    <div class="w3-content">
+                      <img
+                        class="slider-long"
+                        src="assets/img/sofa/01.jpg"
+                        style="width: 100%"
+                      />
+                      <img
+                        class="slider-long"
+                        src="assets/img/sofa/02.jpg"
+                        style="width: 100%"
+                      />
+                      <img
+                        class="slider-long"
+                        src="assets/img/sofa/03.jpg"
+                        style="width: 100%"
+                      />
+                      <div class="Gallery-section">
+                        <button
+                          class="w3-button w3-display-left w3-red"
+                          onclick="plusSlides(-1)"
+                        >
+                          ❮
+                        </button>
+                        <button
+                          class="w3-button w3-display-right w3-red"
+                          onclick="plusSlides(+1)"
+                        >
+                          ❯
+                        </button>
+                        <div style="text-align: center">
+                          <span class="dot" onclick="currentSlide(1)"></span>
+                          <span class="dot" onclick="currentSlide(2)"></span>
+                          <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tips-trick">
+      <div class="container">
+        <h2 class="text-center">Tips & Trick</h2>
+        <div class="row positionText">
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/09.jpg"
+                height="200px"
+              />
+              <div class="card-body">
+                <h6>How to create a living room to love</h6>
+                <p class="card-text">20 jan 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/10.jpg"
+                height="200px"
+              />
+              <div class="card-body">
+                <h6>solution for clean look working space</h6>
+                <p class="card-text">10 jan 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/11.jpg"
+                height="200px"
+              />
+              <div class="card-body">
+                <h6>Make your cooking activity more fun with good setup</h6>
+                <p class="card-text">20 jan 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/img/sofa/12.jpg"
+                height="200px"
+              />
+              <div class="card-body">
+                <h6>How to create a living room to love</h6>
+                <p class="card-text">20 jan 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="share">
+      <div class="container">
+        <div class="text-center">
+          <p>Share your setup with</p>
+          <h4>#FuniroFurniture</h4>
+        </div>
+      </div>
+      <div class="image-grid">
+        <div class="row">
+          <div class="col-2">
+            <img src="assets/img/sofa/01.jpg" height="250px" />
+          </div>
+          <div class="col-3" style="margin-top: 42px">
+            <img src="assets/img/sofa/02.jpg" />
+          </div>
+          <div class="col-2" style="margin-top: 190px">
+            <img src="assets/img/sofa/03.jpg" />
+          </div>
+          <div class="col-3" style="margin-top: 60px">
+            <img src="assets/img/sofa/04.jpg" />
+          </div>
+          <div class="col-2" style="margin-top: 150px">
+            <img src="assets/img/sofa/05.jpg" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2" style="margin-top: -60px">
+            <img src="assets/img/sofa/06.jpg" />
+          </div>
+          <div class="col-3" style="margin-top: -60px">
+            <img src="assets/img/sofa/07.jpg" />
+          </div>
+          <div class="col-2"></div>
+          <div class="col-3" style="margin-top: -30px">
+            <img src="assets/img/sofa/09.jpg" />
+          </div>
+          <div class="col-2" style="margin-top: -28px">
+            <img src="assets/img/sofa/10.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <hr style="width: 100%" />
+        <div class="row positionText">
+          <div class="col">
+            <div class="row mb-3">
+              <div class="col"><h5 class="font-weight-bold">Funiro.</h5></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>
+                  Worldwide furniture store since 2020. We sell over 1000+
+                  branded products on our website
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img
+                  src="assets/img/icon/location.png"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+              <div class="col-10"><p>Sawojajar Malang, Indonesia</p></div>
+            </div>
+            <div class="row">
+              <div class="col-1">
+                <img
+                  src="assets/img/icon/phone-call.png"
+                  width="20px"
+                  height="20px"
+                />
+              </div>
+              <div class="col-10"><p>+6289 456 3455</p></div>
+            </div>
+            <div class="row">
+              <div class="col"><p>www.funiro.com</p></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row mb-3">
+              <div class="col"><h5 class="font-weight-bold">Menu</h5></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Products</p>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Rooms</p></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Inspirations</p></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>About Us</p></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Terms & Policy</p></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row mb-3">
+              <div class="col"><h5 class="font-weight-bold">Account</h5></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <p>My Account</p>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Checkout</p></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Mycart</p></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>My catalog</p></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row mb-3">
+              <div class="col">
+                <h5 class="font-weight-bold">Stay Connected</h5>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <p>Facebook</p>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Instagram</p></div>
+            </div>
+            <div class="row mb-2">
+              <div class="col"><p>Twitter</p></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row mb-3">
+              <div class="col">
+                <h5 class="font-weight-bold">Stay Updated</h5>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <form class="form-inline my-2 my-lg-0">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="Enter your email"
+                    placeholder="Enter your email"
+                    aria-label="Enter your email"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/slider.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
