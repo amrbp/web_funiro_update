@@ -91,7 +91,7 @@ nav {
 }
 .share {
   background-color: #ffffff;
-  height: 600px;
+  height: 700px;
 }
 
 footer {
@@ -219,7 +219,6 @@ footer .positionText {
     display: block;
     visibility: visible;
   }
-  /* left or forward direction */
   .active.carousel-item-left + .carousel-item-next.carousel-item-left,
   .carousel-item-next.carousel-item-left + .carousel-item {
     position: relative;
@@ -227,7 +226,6 @@ footer .positionText {
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
-  /* farthest right hidden item must be abso position for animations */
   .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
@@ -236,7 +234,6 @@ footer .positionText {
     display: block;
     visibility: visible;
   }
-  /* right or prev direction */
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item {
     position: relative;
@@ -248,7 +245,6 @@ footer .positionText {
   }
 }
 
-/* Desktop and up */
 
 @media screen and (min-width: 992px) {
   .carousel-inner .active,
@@ -286,7 +282,6 @@ footer .positionText {
     display: block;
     visibility: visible;
   }
-  /* left or forward direction */
   .active.carousel-item-left + .carousel-item-next.carousel-item-left,
   .carousel-item-next.carousel-item-left + .carousel-item,
   .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
@@ -299,7 +294,6 @@ footer .positionText {
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
-  /* farthest right hidden item must be abso position for animations */
   .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
@@ -308,7 +302,6 @@ footer .positionText {
     display: block;
     visibility: visible;
   }
-  /* right or prev direction */
   .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right + .carousel-item,
   .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
